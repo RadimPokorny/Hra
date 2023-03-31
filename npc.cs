@@ -26,6 +26,18 @@ namespace npc
         {
             _octupation = octupation;
         }
+
+        public void IsBoss(bool Isboss)
+        {
+            if(Isboss)
+            {
+                MessageBox.Show("NPC je totálně najetej boss");
+            }
+            else
+            {
+                MessageBox.Show("NPC není totálně najetej boss");
+            }
+        }
     }
 
 }
