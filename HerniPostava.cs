@@ -36,7 +36,7 @@ namespace Hra
             Jmeno = jmeno;
         }
 
-        public void ZmenaPozice(bool upDown, bool rightLeft)
+        public virtual void ZmenaPozice(bool upDown, bool rightLeft)
         {
             if (upDown == true)
             {

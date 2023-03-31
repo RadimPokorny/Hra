@@ -1,4 +1,5 @@
-﻿using System;
+﻿using npc;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,10 @@ namespace Hra
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            Hrac hrac = new Hrac("debil", Trida.Inzenyr, Oblicej.makeup, Vlasy.culik, BarvaVlasu.blond);
+            Npc npc = new Npc(Ocupation.nepritel, "kokot");
+
 
         }
     }
