@@ -18,12 +18,27 @@ namespace Hra
             InitializeComponent();
         }
 
+        Hrac hrac;
+        Npc npc;
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            Hrac hrac = new Hrac("debil", Trida.Inzenyr, Oblicej.makeup, Vlasy.culik, BarvaVlasu.blond);
-            Npc npc = new Npc(Ocupation.nepritel, "kokot");
+            hrac = new Hrac("debil", Trida.Inzenyr, Oblicej.makeup, Vlasy.culik, BarvaVlasu.blond);
+            npc = new Npc(Ocupation.nepritel, "kokot");
 
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(hrac.ToString());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            bool isBoss = true;
+            npc.IsBoss(isBoss);
 
         }
     }
