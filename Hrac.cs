@@ -73,6 +73,11 @@ namespace Hra
             }
         }
 
+        public override string ToString()
+        {
+            return base.ToString() + "oblicej: " + _oblicej + ", vlasy: " + _vlasy + ", barva vlasu: " + _barvaVlasu + ", trida:" + _trida;
+        }
+
 
     }
 }
