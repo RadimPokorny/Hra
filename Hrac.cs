@@ -43,15 +43,15 @@ namespace Hra
 
         
 
-        private Trida _trida;
+        public Trida _trida;
 
         
 
-        private Oblicej _oblicej;
+        public Oblicej _oblicej;
         
-        private Vlasy _vlasy;
-        
-        private BarvaVlasu _barvaVlasu;
+        public Vlasy _vlasy;
+
+        public BarvaVlasu _barvaVlasu;
 
         public int _xp;
 
