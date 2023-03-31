@@ -42,7 +42,8 @@ namespace npc
 
         public override void ZmenaPozice(bool upDown, bool rightLeft)
         {
-            base.ZmenaPozice(upDown, rightLeft);
+            _poziceX = 0;
+            _poziceY = 0;
         }
     }
 
