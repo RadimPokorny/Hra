@@ -50,7 +50,7 @@ namespace Hra
         }
         public override string ToString()
         {
-            return Jmeno + " - level: " + _level + ", poziceX: " + _poziceX + ", poziceY: " + _poziceY;
+            return Jmeno + " - level: " + _level + ", poziceX: " + _poziceX + ", poziceY: " + _poziceY+", ";
         }
 
     }
